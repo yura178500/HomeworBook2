@@ -7,6 +7,7 @@ public class Author {
 
     public String getAuthor() {
         return this.author;
+
     }
 
     public String toString() {
