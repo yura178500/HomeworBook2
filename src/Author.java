@@ -13,7 +13,6 @@ public class Author {
     public String toString() {
         return "  ФИО   " + this.author;
     }
-
     public boolean equals(Author book1) {
         return this.author == book1.author;
     }

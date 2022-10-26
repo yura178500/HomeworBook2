@@ -35,6 +35,5 @@ public class Main {
         System.out.println(book.hashCode());
         System.out.println(book1.hashCode());
         System.out.println("======================================");
-
     }
 }
