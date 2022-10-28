@@ -3,10 +3,10 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("======================================");
         System.out.println("Book 1");
-        Book bookSet = new Book("  Юмористические рассказы "," Чехов Антон Павлович", 2022);
+        Book bookSet = new Book("  Юмористические рассказы ", " Чехов Антон Павлович", 2022);
         System.out.println("book.neme  " + bookSet.getName());
         System.out.println("book.releaseDate = " + bookSet.getAge());
-        Author book = new Author(" Антон"," Чехов"," Павлович");
+        Author book = new Author(" Антон", " Чехов", " Павлович");
         System.out.println("book.neme  " + book.getFirstName());
         System.out.println("book.neme  " + book.getLastName());
         System.out.println("book.neme  " + book.getPatronymic());
@@ -14,10 +14,10 @@ public class Main {
         System.out.println("book.getAge() = " + bookSet.getAge());
         System.out.println("======================================");
         System.out.println("Book 2");
-        Book bookSet1 = new Book("  Ars grammatica "," Алексей Михайлович Белов" , 2017);
+        Book bookSet1 = new Book("  Ars grammatica ", " Алексей Михайлович Белов", 2017);
         System.out.println("book.neme  " + bookSet1.getName());
         System.out.println("book.releaseDate = " + bookSet1.getAge());
-        Author book1 = new Author(" Алексей"," Михайлович"," Белов ");
+        Author book1 = new Author(" Алексей", " Михайлович", " Белов ");
         System.out.println("book.neme  " + book1.getFirstName());
         System.out.println("book.neme  " + book1.getLastName());
         System.out.println("book.neme  " + book1.getPatronymic());

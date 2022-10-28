@@ -11,26 +11,26 @@ public class Author {
     }
 
     public String getFirstName() {
-        return this.firstName;
+        return firstName;
 
     }
 
     public String getLastName() {
-        return this.lastName;
+        return lastName;
 
     }
 
     public String getPatronymic() {
-        return this.patronymic;
+        return patronymic;
 
     }
 
     public String toString() {
-        return "  Имя" + this.lastName + "  Фамилия   " + this.firstName + "  Отчество   " + this.patronymic;
+        return "  Имя" + lastName + "  Фамилия   " + firstName + "  Отчество   " + patronymic;
     }
 
     public boolean equals(Author book1) {
-        return lastName == book1.lastName && firstName == book1.firstName && patronymic == book1.patronymic;
+        return lastName == book1.lastName && lastName == book1.firstName && patronymic == book1.patronymic;
     }
 }
 

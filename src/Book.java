@@ -12,15 +12,15 @@ public class Book {
     }
 
     public String getAuthor() {
-        return this.author;
+        return author;
     }
 
     public String getName() {
-        return this.name;
+        return name;
     }
 
     public int getAge() {
-        return this.age;
+        return age;
     }
 
     public String toString() {
@@ -30,7 +30,6 @@ public class Book {
     public void setAge(int age) {
         this.age = age;
     }
-
 
     public boolean equals(Object other) {
         if (this.getClass() != other.getClass()) {
