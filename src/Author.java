@@ -1,7 +1,7 @@
-public class Author {
-    private String lastName;
-    private String firstName;
-    private String patronymic;
+public final class Author {
+    private final String lastName;
+    private final String firstName;
+    private final String patronymic;
 
     public Author(String firstName, String lastName, String patronymic) {
         this.firstName = firstName;

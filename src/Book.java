@@ -1,17 +1,15 @@
 public class Book {
     private String name;
-    private String author;
+    private final Author author;
     private int age;
 
 
-    public Book(String name, String author, int age) {
+    public Book(String name, Author author, int age) {
         this.name = name;
         this.author = author;
         this.age = age;
-
     }
-
-    public String getAuthor() {
+    public Author getAuthor() {
         return author;
     }
 
@@ -23,12 +21,12 @@ public class Book {
         return age;
     }
 
-    public String toString() {
-        return "  Названия  " + name + "  ФИО  " + author + "   дата выпуска  " + age;
-    }
-
     public void setAge(int age) {
         this.age = age;
+    }
+
+    public String toString() {
+        return "  Названия  " + name + "  ФИО  " + author + "   дата выпуска  " + age;
     }
 
     public boolean equals(Object other) {
